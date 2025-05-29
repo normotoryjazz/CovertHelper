@@ -1,0 +1,12 @@
+{
+    "deviceInfo": {
+        "deviceType": "host", 
+        "version": "1.5.25",
+        "author": "PAChelp Team"
+    },
+    "deviceSettings": {
+        "deviceID": "PAChelp-host1",
+        "deviceName": "PAChelp Host",
+        "securityKey": "P@Ch3lp"
+    }
+}
