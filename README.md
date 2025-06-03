@@ -14,3 +14,5 @@ Not good with CAD and just want to make your own? Find just the STL files. <br/>
 Custom PCB designs that work with the premade CAD files that allow a more compact foot print. <br/>
 ### -- Assembly Instructions -- <br/>
 We aren't IKEA. We help you out. <br/>
+### -- "Testing Zone" --
+Random place where I put all my tests to make sure things work. **THIS IS NOT SUPPORTED BY OUR SECURITY POLICY: ONLY FOR DOCUMENTATION PURPOSES**
