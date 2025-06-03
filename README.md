@@ -10,7 +10,7 @@ Helps in orginal setup of device for use with CovertHelp tool. Which allows for 
 They're CAD models. What else am I supposed to put here? 😂 <br/>
 ### -- 3D Print Files -- <br/>
 Not good with CAD and just want to make your own? Find just the STL files. <br/>
-### == PCB Designs -- <br/>
+### -- PCB Designs -- <br/>
 Custom PCB designs that work with the premade CAD files that allow a more compact foot print. <br/>
-### == Assembly Instructions -- <br/>
+### -- Assembly Instructions -- <br/>
 We aren't IKEA. We help you out. <br/>
