@@ -10,6 +10,7 @@ At this time, the following programs are up to date and being supported.
 | 1.6.25   | :x:                |
 | 1.5.25+lite   | :white_check_mark: |
 | < 1.4.25   | :x:                |
+| "Testing Zone" Files | :x: |
 
 Version number : Release #.Month.Year
 
