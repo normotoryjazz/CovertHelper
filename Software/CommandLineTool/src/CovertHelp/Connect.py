@@ -43,7 +43,7 @@ def Connect(
         typer.Option(
             "--side",
             "-s",
-            help="Indicate the panel you are trying to connect to. [Options: Left, Right, Top, Bottom, Back or All.]"
+            help="Inidicate the location of the panel you are connecting to. NOTE: THIS WILL ERASE ANY INFORMATION FROM CONFIG OF THIS PANEL. [Options: Left, Right, Top, Bottom, Back or All.]"
         )
     ]
 ):

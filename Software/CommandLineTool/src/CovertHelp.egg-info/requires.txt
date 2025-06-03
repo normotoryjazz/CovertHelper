@@ -1,0 +1,7 @@
+typer>=0.9.0
+pyserial>=3.5
+pyudev>=0.24.3
+platformdirs>=4.3.6
+
+[:python_version < "3.9"]
+typing_extensions>=4.0
