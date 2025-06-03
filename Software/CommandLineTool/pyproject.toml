@@ -2,13 +2,20 @@
 requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "PAChelp"
+name = "CovertHelp"
 version = "1.5.25"
 dependencies = [
     "typer>=0.9.0",  # or whatever version you need
     "typing_extensions>=4.0; python_version<'3.9'",
     "pyserial>=3.5",
-    "pyudev>=0.24.3"
+    "pyudev>=0.24.3",
+    "platformdirs>=4.3.6"
 ]
 [project.scripts]
-PAChelp = "PAChelp.cli:app"
+CovertHelp = "CovertHelp.cli:app"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+CovertHelp = ["config.json"]

@@ -1,0 +1,12 @@
+{
+    "hostInfo": {
+        "deviceID": "CovertHelp-host1",
+        "securityKey": "C0v3rtH3lp"
+    },
+    "clientInfo": {
+        "panelID": "clientPanel",
+        "panelName": "TestPanel",
+        "panelType": "lurkingPanel",
+        "securityKey": "ImAPanel"
+    }
+}

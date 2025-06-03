@@ -5,8 +5,8 @@ from .Connect import Connect
 
 app = typer.Typer()
 
-app.command()(HealthCheck)
-app.command()(Connect)
+app.command(name= "HealthCheck")(HealthCheck)
+app.command(name="connect")(Connect)
 app.command(name="hc", hidden=True)(HealthCheck)
 
 

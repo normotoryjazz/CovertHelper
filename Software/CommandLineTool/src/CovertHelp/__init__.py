@@ -1,3 +1,3 @@
 if __name__ == "__main__":
-    from PAChelp.cli import app
+    from CovertHelp.cli import app
     app()

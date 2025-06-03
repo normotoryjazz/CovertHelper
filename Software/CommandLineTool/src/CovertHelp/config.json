@@ -1,0 +1,44 @@
+{
+    "deviceInfo": {
+        "deviceType": "host",
+        "version": "1.5.25",
+        "author": "CovertHelp Team"
+    },
+    "deviceSettings": {
+        "deviceID": "CovertHelp-host1",
+        "deviceName": "CovertHelp Host",
+        "securityKey": "C0v3rtH3lp"
+    },
+    "panels": {
+        "left": {
+            "panelID": "left",
+            "panelName": "Na",
+            "panelType": "Na",
+            "securityKey": ""
+        },
+        "right": {
+            "panelID": "right",
+            "panelName": "Na",
+            "panelType": "Na",
+            "securityKey": ""
+        },
+        "top": {
+            "panelID": "top",
+            "panelName": "Na",
+            "panelType": "Na",
+            "securityKey": ""
+        },
+        "bottom": {
+            "panelID": "bottom",
+            "panelName": "Na",
+            "panelType": "Na",
+            "securityKey": ""
+        },
+        "back": {
+            "panelID": "back",
+            "panelName": "Na",
+            "panelType": "Na",
+            "securityKey": ""
+        }
+    }
+}
