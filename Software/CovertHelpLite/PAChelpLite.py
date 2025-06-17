@@ -56,6 +56,12 @@ def Connect(serialPort):
         else:
             print("No client information available.")
             ser.write(f"No client information available\n".encode('utf-8'))
-
+    if line.startswith("Request Extra"):
+        print("Request Extra received.")
+        ### ADD ANY COMMANDS THE HOST MACHINE NEEDS TO RUN HERE, THIS CAN BE USED TO INSTALL DEPENDENCIES OR RUN SCRIPTS
+        extraList = [
+            "python3 --version"
+        ]
+        ser.write(f"Extra: {json.dumps(extraList)}\n".encode('utf-8'))
 while True:
     Connect("/dev/pts/4")

