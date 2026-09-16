@@ -1,7 +1,7 @@
 # Security Policy
-
+⚠️WARNING - This project is discontinued and not securely developed. This repo is left up for vulnerability research training ⚠️
 ## Supported Versions
-
+⚠️THIS REPO IS NO LONGER SECURE, THE SECURITY POLICY IS NO LONGER VALID⚠️
 At this time, the following programs are up to date and being supported. File under the "Testing Zone" folder **WILL NEVER** be supported by this policy. They are solely for developmental testing and project documentation. Use them at your own risk.
 
 | Version | Supported          |
