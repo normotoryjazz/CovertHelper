@@ -1,3 +1,5 @@
+#
+⚠️WARNING - This project is discontinued and not securely developed. This repo is left up for vulnerability research training ⚠️
 # CovertHelper
 Open Source Covert Entry toolkit.
 
